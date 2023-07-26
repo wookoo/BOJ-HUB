@@ -9,9 +9,6 @@ for i in range(size):
     N[i] = t
     P[i] = j
 
-for i in range(size):
-    endTime= N[i]
-    endCost= P[i]
 
 
 for i in range(size):
