@@ -15,22 +15,19 @@ public class Main
 		arr[3] = 1;
 		arr[5] = 1;
 		for(int i = 6;i <= SIZE;i++){
-			if(i%5 ==0){
-				arr[i] = arr[i-5] +1;
+			arr[i] = Math.min(arr[i-3], arr[i-5]);
+			if(arr[i]==0){
+				arr[i]= Math.max(arr[i-3],arr[i-5]);
 			}
-			else if(i%3 ==0){
-				arr[i] = arr[i-3]+1;
-			}
-			else{
-				if(arr[i-3] != 0 && arr[i-5]!=0){
-					arr[i] = Math.min(arr[i-3]+1,arr[i-5]+1);
-				}
+			if(arr[i]!=0){
+				arr[i]++;
 			}
 		}
-	    if(arr[SIZE] == 0){
+         if(arr[SIZE] == 0){
             System.out.println(-1);
             return;
         }
+	
 		System.out.println(arr[SIZE]);
 		
 
