@@ -12,7 +12,7 @@
 
 ### 문제 설명
 
-<p><img alt="" src="https://upload.acmicpc.net/2d0d6aba-da7d-45b0-a450-a47cc1016dc0/-/crop/512x358/0,79/-/preview/" style="width: 256px; height: 179px; float: right;">길이가 N인 컨베이어 벨트가 있고, 길이가 2N인 벨트가 이 컨베이어 벨트를 위아래로 감싸며 돌고 있다. 벨트는 길이 1 간격으로 2N개의 칸으로 나뉘어져 있으며, 각 칸에는 아래 그림과 같이 1부터 2N까지의 번호가 매겨져 있다.</p>
+<p><img alt="" src="" style="width: 256px; height: 179px; float: right;">길이가 N인 컨베이어 벨트가 있고, 길이가 2N인 벨트가 이 컨베이어 벨트를 위아래로 감싸며 돌고 있다. 벨트는 길이 1 간격으로 2N개의 칸으로 나뉘어져 있으며, 각 칸에는 아래 그림과 같이 1부터 2N까지의 번호가 매겨져 있다.</p>
 
 <p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/396139ea-9079-4115-9a00-446865434900/-/preview/" style="width: 476px; height: 224px;"></p>
 
