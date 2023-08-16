@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Main {
 
-    static boolean isEnd = false;
+
 
     static int SCORE[][] = new int[6][3];
 
@@ -29,7 +29,7 @@ public class Main {
 
 
     public static void main(String[] args) throws Exception {
-       // System.setIn(new FileInputStream("./src/input.txt"));
+        //System.setIn(new FileInputStream("./src/input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         for (int i = 0; i < 4; i++) {
@@ -46,9 +46,9 @@ public class Main {
 //                System.out.println(SCORE[j][0]);
             }
             if(!breaked){
-                isEnd = false;
-                search(0);
-                System.out.print(isEnd?"1 ":"0 ");
+
+
+                System.out.print(search(0)?"1 ":"0 ");
             }
             else{
                 System.out.print("0 ");
@@ -60,37 +60,42 @@ public class Main {
 
     }
 
-    public static void search(int index) {
+    public static boolean search(int index) {
         if (index == 15) {
-            isEnd = true;
+            return true;
         }
-        if(isEnd){
-            return;
-        }
+
 
         int start = SQUAD[index][0];
         int end = SQUAD[index][1];
         if (SCORE[start][0] > 0 && SCORE[end][2] > 0) {
             SCORE[start][0] -= 1;
             SCORE[end][2] -= 1;
-            search(index + 1);
+            if(search(index + 1)){
+                return  true;
+            }
             SCORE[start][0] += 1;
             SCORE[end][2] += 1;
         }
         if (SCORE[start][1] > 0 && SCORE[end][1] > 0) {
             SCORE[start][1] -= 1;
             SCORE[end][1] -= 1;
-            search(index + 1);
+            if(search(index + 1)){
+                return  true;
+            }
             SCORE[start][1] += 1;
             SCORE[end][1] += 1;
         }
         if (SCORE[start][2] > 0 && SCORE[end][0] > 0) {
             SCORE[start][2] -= 1;
             SCORE[end][0] -= 1;
-            search(index + 1);
+            if(search(index + 1)){
+                return  true;
+            }
             SCORE[start][2] += 1;
             SCORE[end][0] += 1;
         }
+        return  false;
 
 
     }
