@@ -14,7 +14,7 @@ public class Main
 
     static int INNING_SCORE_BOARD[][];
     public static void main(String[] args) throws Exception {
-      //  System.setIn(new FileInputStream("./src/input.txt"));
+    //    System.setIn(new FileInputStream("./src/input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         INNING = Integer.parseInt(br.readLine());
@@ -29,12 +29,9 @@ public class Main
 
             int newPlayer[] = new int[9];
 
-            for(int i = 0; i < 3; i++ ){
-                newPlayer[i] = people[i];
-            }
-            for(int i = 3; i < 8; i++){
-                newPlayer[i+1] = people[i];
-            }
+            System.arraycopy(people, 0, newPlayer, 0, 3);
+            System.arraycopy(people, 3, newPlayer, 4, 5);
+
 
 
             int score = 0;
