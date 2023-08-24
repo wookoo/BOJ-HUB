@@ -14,7 +14,7 @@ public class Main
 
     static int INNING_SCORE_BOARD[][];
     public static void main(String[] args) throws Exception {
-    //    System.setIn(new FileInputStream("./src/input.txt"));
+        //    System.setIn(new FileInputStream("./src/input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         INNING = Integer.parseInt(br.readLine());
@@ -39,66 +39,54 @@ public class Main
             int playerIndex = 0;
             for(int inning = 0 ; inning < INNING; inning++){
                 int out = 0;
-                boolean base[] = {false,false,false};
+                int base =0;
                 while (out < 3){
-//                    System.out.println(lineUp);
                     int player = newPlayer[playerIndex];
-                    int control = INNING_SCORE_BOARD[inning][player]; // 1 2 3 4  0
-                    playerIndex = (playerIndex+1)%9;
+                    int control = INNING_SCORE_BOARD[inning][player];
+                    playerIndex = (playerIndex + 1) % 9;
 
-
-                    if(control == 0){
-                        out ++;
+                    if (control == 0){
+                        out++;
                     }
-                    else if(control == 1){ //1루타
-                        if(base[2]){
+                    else if (control == 1){ // 1루타
+                        if ((base & 4) > 0){
                             score++;
                         }
-                        base[2] = base[1];
-                        base[1] = base[0];
-                        base[0] = true;
+                        base <<= 1;
+                        base |= 1;
                     }
-                    else if(control ==2){ // 2루타
-                        if(base[2]){
+                    else if (control == 2){ // 2루타
+                        if ((base & 4) > 0){
                             score++;
                         }
-                        if(base[1]){
-                            score ++;
-                        }
-                        base[2] = base[0];
-                        base[1] = true;
-                        base[0] = false;
-
-                    }
-                    else if(control ==3){ // 3루타
-                        if(base[2]){
+                        if ((base & 2) > 0){
                             score++;
                         }
-                        if(base[1]){
-                            score ++;
-                        }
-                        if(base[0]){
-                            score ++;
-                        }
-                        base[2] = true;
-                        base[1] = false;
-                        base[0] = false;
+                        base <<= 2;
+                        base |= 2;
                     }
-                    else  if (control == 4){
+                    else if (control == 3){ // 3루타
+                        if ((base & 4) > 0){
+                            score++;
+                        }
+                        if ((base & 2) > 0){
+                            score++;
+                        }
+                        if ((base & 1) > 0){
+                            score++;
+                        }
+                        base <<= 3;
+                        base |= 4;
+                    }
+                    else if (control == 4){ // 홈런
                         score++;
-                        for(int i = 0; i < 3; i++){
-                            if(base[i]){
-                                score ++;
-                            }
-                            base[i] = false;
-                        }
+                        score += Integer.bitCount(base & 0b111);
+                        base = 0;
                     }
-
                 }
-
             }
-//           System.out.println(lineUp);
-            MAX = Math.max(MAX,score);
+
+            MAX = Math.max(MAX, score);
 
         }while (np());
         System.out.println(MAX);
