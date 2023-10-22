@@ -1,4 +1,3 @@
-
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
@@ -61,7 +60,7 @@ public class Main {
         if (ans == 1) {
             return;
         }
-        if (depth > 9) {
+        if (depth > 7) {
             ans = 1;
             return;
         }
