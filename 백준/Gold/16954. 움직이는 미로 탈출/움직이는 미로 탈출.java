@@ -55,9 +55,14 @@ public class Main {
     }
 
     static void dfs(int x, int y, int depth, long map) {
+        
 
 
         if (ans == 1) {
+            return;
+        }
+        if(map == 0){
+            ans= 1;
             return;
         }
         if (depth > 7) {
@@ -74,7 +79,7 @@ public class Main {
             int ty = y + dy[i];
             int cal = tx + ty * 8;
             if (0 <= tx && tx < 8 && 0<=ty && ty < 8) {
-                if (((map >>> 8) & (1L << cal)) == 0 && ((map) & (1L << cal)) == 0) {
+                if ((((map >>> 8)|map) & (1L << cal)) == 0) {
                     dfs(tx, ty, depth + 1, map >>> 8);
                 }
             }
