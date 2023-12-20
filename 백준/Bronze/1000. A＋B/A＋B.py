@@ -1,2 +1,5 @@
 import sys
-print(sum(map(int,sys.stdin.readline().split())))
+#sys.stdin = open("input.txt")
+
+array = list(map(int,input().split()))
+print(array[0]+array[1])
