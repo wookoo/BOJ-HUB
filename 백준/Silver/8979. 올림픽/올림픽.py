@@ -1,25 +1,45 @@
 import sys
-
 #sys.stdin = open("input.txt")
-country,target = map(int,input().split())
+class Country:
+    def __init__(self,arr):
+        self.name = arr[0]
+        self.gold = arr[1]
+        self.silver = arr[2]
+        self.bronze = arr[3]
 
-arr = [list(map(int,input().split())) for i in range(country)]
-arr = sorted(arr,key=lambda x:(x[1],x[2],x[3]),reverse=True)
-rank = 1
-temp = arr[0][1:]
-t = 0
-for i in arr:
-    j = i[1:]
-   # print(temp,j)
-    #print(temp!=j)
+    def __lt__(self, other):
+        if(self.gold == other.gold):
+            if(self.silver == other.silver):
+                return self.bronze > other.bronze
+            return self.silver > other.silver
+        return self.gold > other.gold
+    def __eq__(self, other):
+        return  self.gold == other.gold and self.silver == other.silver and self.bronze == other.bronze
 
-    if(temp == j):
-        t +=1
-    else:
-        rank +=t
-        t = 0
-   # temp = j
+    def __repr__(self):
+        return  f"name = {self.name},gold = {self.gold},silver = {self.silver}, bronze = {self.bronze}"
 
-    if(i[0]==target):#
-        print(rank)
-        break
+
+SIZE,TARGET = map(int,sys.stdin.readline().split())
+countrys = []
+top = {}
+for i in range(SIZE):
+    line = list(map(int,sys.stdin.readline().split()))
+    c = Country(line)
+    top[line[0]] = c
+    countrys.append(c)
+countrys = sorted(countrys)
+start = countrys[0]
+win = 1
+start.win = 1
+upCnt = 0
+del countrys[0]
+for i in countrys:
+    upCnt +=1
+    if(start != i):
+        win +=upCnt
+        start = i
+        upCnt = 0
+    i.win = win
+
+print((top[TARGET].win))
