@@ -25,7 +25,7 @@ public class Main {
             int v = Integer.parseInt(stk.nextToken());
             int cnt = Integer.parseInt(stk.nextToken());
 
-            for(int i = 1; cnt> 0; i <<= 1){
+            for(int i = 1; cnt> 0; i *= 2){
                 int ix = Math.min(i, cnt);
                 item.add(new int[]{w * ix, v * ix});
                 cnt -= ix;
