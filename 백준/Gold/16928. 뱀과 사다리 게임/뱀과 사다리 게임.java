@@ -14,21 +14,15 @@ public class Main {
         StringTokenizer stk = new StringTokenizer(br.readLine());
         int ladders = Integer.parseInt(stk.nextToken());
         int snakes = Integer.parseInt(stk.nextToken());
-        for (int i = 0; i < ladders; i++) {
+        for (int i = 0; i < ladders + snakes; i++) {
             stk = new StringTokenizer(br.readLine());
             int start = Integer.parseInt(stk.nextToken());
             int end = Integer.parseInt(stk.nextToken());
             move[start] = end;
         }
-        for (int i = 0; i < snakes; i++) {
-            stk = new StringTokenizer(br.readLine());
-            int start = Integer.parseInt(stk.nextToken());
-            int end = Integer.parseInt(stk.nextToken());
-            move[start] = end;
-        }
+
         Queue<int[]> q = new LinkedList<>();
-        int visited[] = new int[101];
-        Arrays.fill(visited, Integer.MAX_VALUE);
+        boolean visited[] = new boolean[101];
         q.add(new int[]{1, 0});
         while (!q.isEmpty()) {
             int line[] = q.poll();
@@ -40,8 +34,8 @@ public class Main {
                 break;
 
             }
-            if (depth <= visited[pos]) {
-                visited[pos] = depth;
+            if (!visited[pos]) {
+                visited[pos] = true;
                 for (int dice = 1; dice <= 6; dice++) {
                     int toward = pos + dice;
                     if (toward > 100) {
@@ -50,7 +44,7 @@ public class Main {
                     toward = move[toward];
 
                     q.add(new int[]{toward, depth + 1});
-                    
+
                 }
             }
 
