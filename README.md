@@ -17,4 +17,20 @@
 |  |
 | ------- |
 | [0812-rotate-string](https://github.com/wookoo/BOJ-HUB/tree/master/0812-rotate-string) |
+## Array
+|  |
+| ------- |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/wookoo/BOJ-HUB/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
+## Greedy
+|  |
+| ------- |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/wookoo/BOJ-HUB/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
+## Sorting
+|  |
+| ------- |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/wookoo/BOJ-HUB/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
+## Counting Sort
+|  |
+| ------- |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/wookoo/BOJ-HUB/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 <!---LeetCode Topics End-->
