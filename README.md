@@ -23,6 +23,7 @@
 |  |
 | ------- |
 | [1217-relative-sort-array](https://github.com/wookoo/BOJ-HUB/tree/master/1217-relative-sort-array) |
+| [1293-three-consecutive-odds](https://github.com/wookoo/BOJ-HUB/tree/master/1293-three-consecutive-odds) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/wookoo/BOJ-HUB/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 ## Greedy
 |  |
