@@ -14,6 +14,7 @@
 | [0812-rotate-string](https://github.com/wookoo/BOJ-HUB/tree/master/0812-rotate-string) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/wookoo/BOJ-HUB/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [2580-circular-sentence](https://github.com/wookoo/BOJ-HUB/tree/master/2580-circular-sentence) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/wookoo/BOJ-HUB/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## String Matching
 |  |
 | ------- |
@@ -41,4 +42,12 @@
 |  |
 | ------- |
 | [1217-relative-sort-array](https://github.com/wookoo/BOJ-HUB/tree/master/1217-relative-sort-array) |
+## Stack
+|  |
+| ------- |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/wookoo/BOJ-HUB/tree/master/2800-minimum-string-length-after-removing-substrings) |
+## Simulation
+|  |
+| ------- |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/wookoo/BOJ-HUB/tree/master/2800-minimum-string-length-after-removing-substrings) |
 <!---LeetCode Topics End-->
