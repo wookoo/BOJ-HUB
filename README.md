@@ -20,6 +20,7 @@
 ## Array
 |  |
 | ------- |
+| [1217-relative-sort-array](https://github.com/wookoo/BOJ-HUB/tree/master/1217-relative-sort-array) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/wookoo/BOJ-HUB/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 ## Greedy
 |  |
@@ -28,9 +29,15 @@
 ## Sorting
 |  |
 | ------- |
+| [1217-relative-sort-array](https://github.com/wookoo/BOJ-HUB/tree/master/1217-relative-sort-array) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/wookoo/BOJ-HUB/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 ## Counting Sort
 |  |
 | ------- |
+| [1217-relative-sort-array](https://github.com/wookoo/BOJ-HUB/tree/master/1217-relative-sort-array) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/wookoo/BOJ-HUB/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
+## Hash Table
+|  |
+| ------- |
+| [1217-relative-sort-array](https://github.com/wookoo/BOJ-HUB/tree/master/1217-relative-sort-array) |
 <!---LeetCode Topics End-->
