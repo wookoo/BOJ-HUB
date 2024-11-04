@@ -13,6 +13,7 @@
 | ------- |
 | [0812-rotate-string](https://github.com/wookoo/BOJ-HUB/tree/master/0812-rotate-string) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/wookoo/BOJ-HUB/tree/master/1302-delete-characters-to-make-fancy-string) |
+| [1720-crawler-log-folder](https://github.com/wookoo/BOJ-HUB/tree/master/1720-crawler-log-folder) |
 | [2580-circular-sentence](https://github.com/wookoo/BOJ-HUB/tree/master/2580-circular-sentence) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/wookoo/BOJ-HUB/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## String Matching
@@ -24,6 +25,7 @@
 | ------- |
 | [1217-relative-sort-array](https://github.com/wookoo/BOJ-HUB/tree/master/1217-relative-sort-array) |
 | [1293-three-consecutive-odds](https://github.com/wookoo/BOJ-HUB/tree/master/1293-three-consecutive-odds) |
+| [1720-crawler-log-folder](https://github.com/wookoo/BOJ-HUB/tree/master/1720-crawler-log-folder) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/wookoo/BOJ-HUB/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 ## Greedy
 |  |
@@ -46,6 +48,7 @@
 ## Stack
 |  |
 | ------- |
+| [1720-crawler-log-folder](https://github.com/wookoo/BOJ-HUB/tree/master/1720-crawler-log-folder) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/wookoo/BOJ-HUB/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Simulation
 |  |
