@@ -12,6 +12,7 @@
 |  |
 | ------- |
 | [0812-rotate-string](https://github.com/wookoo/BOJ-HUB/tree/master/0812-rotate-string) |
+| [1302-delete-characters-to-make-fancy-string](https://github.com/wookoo/BOJ-HUB/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [2580-circular-sentence](https://github.com/wookoo/BOJ-HUB/tree/master/2580-circular-sentence) |
 ## String Matching
 |  |
