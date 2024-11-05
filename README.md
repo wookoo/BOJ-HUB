@@ -15,6 +15,7 @@
 | [0920-uncommon-words-from-two-sentences](https://github.com/wookoo/BOJ-HUB/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/wookoo/BOJ-HUB/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1720-crawler-log-folder](https://github.com/wookoo/BOJ-HUB/tree/master/1720-crawler-log-folder) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/wookoo/BOJ-HUB/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2580-circular-sentence](https://github.com/wookoo/BOJ-HUB/tree/master/2580-circular-sentence) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/wookoo/BOJ-HUB/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## String Matching
@@ -28,6 +29,7 @@
 | [1256-rank-transform-of-an-array](https://github.com/wookoo/BOJ-HUB/tree/master/1256-rank-transform-of-an-array) |
 | [1293-three-consecutive-odds](https://github.com/wookoo/BOJ-HUB/tree/master/1293-three-consecutive-odds) |
 | [1720-crawler-log-folder](https://github.com/wookoo/BOJ-HUB/tree/master/1720-crawler-log-folder) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/wookoo/BOJ-HUB/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/wookoo/BOJ-HUB/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 ## Greedy
 |  |
@@ -44,6 +46,7 @@
 | ------- |
 | [0920-uncommon-words-from-two-sentences](https://github.com/wookoo/BOJ-HUB/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1217-relative-sort-array](https://github.com/wookoo/BOJ-HUB/tree/master/1217-relative-sort-array) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/wookoo/BOJ-HUB/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/wookoo/BOJ-HUB/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 ## Hash Table
 |  |
@@ -51,6 +54,7 @@
 | [0920-uncommon-words-from-two-sentences](https://github.com/wookoo/BOJ-HUB/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1217-relative-sort-array](https://github.com/wookoo/BOJ-HUB/tree/master/1217-relative-sort-array) |
 | [1256-rank-transform-of-an-array](https://github.com/wookoo/BOJ-HUB/tree/master/1256-rank-transform-of-an-array) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/wookoo/BOJ-HUB/tree/master/1786-count-the-number-of-consistent-strings) |
 ## Stack
 |  |
 | ------- |
@@ -68,5 +72,6 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [1786-count-the-number-of-consistent-strings](https://github.com/wookoo/BOJ-HUB/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/wookoo/BOJ-HUB/tree/master/2323-minimum-bit-flips-to-convert-number) |
 <!---LeetCode Topics End-->
