@@ -65,4 +65,8 @@
 |  |
 | ------- |
 | [2645-pass-the-pillow](https://github.com/wookoo/BOJ-HUB/tree/master/2645-pass-the-pillow) |
+## Bit Manipulation
+|  |
+| ------- |
+| [2323-minimum-bit-flips-to-convert-number](https://github.com/wookoo/BOJ-HUB/tree/master/2323-minimum-bit-flips-to-convert-number) |
 <!---LeetCode Topics End-->
