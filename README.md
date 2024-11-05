@@ -25,6 +25,7 @@
 |  |
 | ------- |
 | [1217-relative-sort-array](https://github.com/wookoo/BOJ-HUB/tree/master/1217-relative-sort-array) |
+| [1256-rank-transform-of-an-array](https://github.com/wookoo/BOJ-HUB/tree/master/1256-rank-transform-of-an-array) |
 | [1293-three-consecutive-odds](https://github.com/wookoo/BOJ-HUB/tree/master/1293-three-consecutive-odds) |
 | [1720-crawler-log-folder](https://github.com/wookoo/BOJ-HUB/tree/master/1720-crawler-log-folder) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/wookoo/BOJ-HUB/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
@@ -36,6 +37,7 @@
 |  |
 | ------- |
 | [1217-relative-sort-array](https://github.com/wookoo/BOJ-HUB/tree/master/1217-relative-sort-array) |
+| [1256-rank-transform-of-an-array](https://github.com/wookoo/BOJ-HUB/tree/master/1256-rank-transform-of-an-array) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/wookoo/BOJ-HUB/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 ## Counting Sort
 |  |
@@ -48,6 +50,7 @@
 | ------- |
 | [0920-uncommon-words-from-two-sentences](https://github.com/wookoo/BOJ-HUB/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1217-relative-sort-array](https://github.com/wookoo/BOJ-HUB/tree/master/1217-relative-sort-array) |
+| [1256-rank-transform-of-an-array](https://github.com/wookoo/BOJ-HUB/tree/master/1256-rank-transform-of-an-array) |
 ## Stack
 |  |
 | ------- |
