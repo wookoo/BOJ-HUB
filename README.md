@@ -25,6 +25,7 @@
 ## Array
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/wookoo/BOJ-HUB/tree/master/0075-sort-colors) |
 | [1217-relative-sort-array](https://github.com/wookoo/BOJ-HUB/tree/master/1217-relative-sort-array) |
 | [1256-rank-transform-of-an-array](https://github.com/wookoo/BOJ-HUB/tree/master/1256-rank-transform-of-an-array) |
 | [1293-three-consecutive-odds](https://github.com/wookoo/BOJ-HUB/tree/master/1293-three-consecutive-odds) |
@@ -38,6 +39,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/wookoo/BOJ-HUB/tree/master/0075-sort-colors) |
 | [1217-relative-sort-array](https://github.com/wookoo/BOJ-HUB/tree/master/1217-relative-sort-array) |
 | [1256-rank-transform-of-an-array](https://github.com/wookoo/BOJ-HUB/tree/master/1256-rank-transform-of-an-array) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/wookoo/BOJ-HUB/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
@@ -76,4 +78,8 @@
 | ------- |
 | [1786-count-the-number-of-consistent-strings](https://github.com/wookoo/BOJ-HUB/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/wookoo/BOJ-HUB/tree/master/2323-minimum-bit-flips-to-convert-number) |
+## Two Pointers
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/wookoo/BOJ-HUB/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
