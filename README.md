@@ -63,11 +63,13 @@
 ## Simulation
 |  |
 | ------- |
+| [1642-water-bottles](https://github.com/wookoo/BOJ-HUB/tree/master/1642-water-bottles) |
 | [2645-pass-the-pillow](https://github.com/wookoo/BOJ-HUB/tree/master/2645-pass-the-pillow) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/wookoo/BOJ-HUB/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Math
 |  |
 | ------- |
+| [1642-water-bottles](https://github.com/wookoo/BOJ-HUB/tree/master/1642-water-bottles) |
 | [2645-pass-the-pillow](https://github.com/wookoo/BOJ-HUB/tree/master/2645-pass-the-pillow) |
 ## Bit Manipulation
 |  |
