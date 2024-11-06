@@ -32,6 +32,7 @@
 | [1720-crawler-log-folder](https://github.com/wookoo/BOJ-HUB/tree/master/1720-crawler-log-folder) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/wookoo/BOJ-HUB/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/wookoo/BOJ-HUB/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
+| [3291-find-if-array-can-be-sorted](https://github.com/wookoo/BOJ-HUB/tree/master/3291-find-if-array-can-be-sorted) |
 ## Greedy
 |  |
 | ------- |
@@ -43,6 +44,7 @@
 | [1217-relative-sort-array](https://github.com/wookoo/BOJ-HUB/tree/master/1217-relative-sort-array) |
 | [1256-rank-transform-of-an-array](https://github.com/wookoo/BOJ-HUB/tree/master/1256-rank-transform-of-an-array) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/wookoo/BOJ-HUB/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
+| [3291-find-if-array-can-be-sorted](https://github.com/wookoo/BOJ-HUB/tree/master/3291-find-if-array-can-be-sorted) |
 ## Counting Sort
 |  |
 | ------- |
@@ -78,6 +80,7 @@
 | ------- |
 | [1786-count-the-number-of-consistent-strings](https://github.com/wookoo/BOJ-HUB/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/wookoo/BOJ-HUB/tree/master/2323-minimum-bit-flips-to-convert-number) |
+| [3291-find-if-array-can-be-sorted](https://github.com/wookoo/BOJ-HUB/tree/master/3291-find-if-array-can-be-sorted) |
 ## Two Pointers
 |  |
 | ------- |
