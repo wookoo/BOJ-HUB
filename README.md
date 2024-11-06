@@ -18,6 +18,7 @@
 | [1786-count-the-number-of-consistent-strings](https://github.com/wookoo/BOJ-HUB/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2580-circular-sentence](https://github.com/wookoo/BOJ-HUB/tree/master/2580-circular-sentence) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/wookoo/BOJ-HUB/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [3451-string-compression-iii](https://github.com/wookoo/BOJ-HUB/tree/master/3451-string-compression-iii) |
 ## String Matching
 |  |
 | ------- |
